@@ -1,4 +1,4 @@
-﻿flask
+﻿flask==1.0.2
 Werkzeug==0.15.5
 flask_cors==3.0.9 
 gunicorn==19.9.0
@@ -7,6 +7,6 @@ nose==1.3.7
 requests==2.21.0
 argparse==1.4.0
 uuid==1.30
-pymongo>=3.1
+pymongo[srv]>=3.1
 passlib
 pyjwt==2.0.0
